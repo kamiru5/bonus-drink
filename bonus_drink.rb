@@ -1,5 +1,7 @@
 class BonusDrink
   def self.total_count_for(amount)
-    0
+    amount += amount / 3
   end
 end
+
+# puts BonusDrink.total_count_for(100)
